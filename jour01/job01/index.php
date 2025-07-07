@@ -7,7 +7,31 @@
 </head>
 <body>
     <?php
-        $
+        $str ="LaPlateforme";
+        $str2 ="Vive";
+        $str3 ="!";
+       
+        echo $str . "<br>"; 
+        echo $str2 ." ". $str ." ". $str3 . "<br>";
+
+        $val ="6";
+        echo $val . "<br>"; 
+
+        $resultat = $val + 4 ;
+        echo $resultat ."<br>";
+
+        $Mybool = true;
+        echo $Mybool . "<br>";
+
+        $Mybool = false;
+        echo $Mybool . "<br>";
+
+
+         
+    
+
+
+    
 
 
      ?>
