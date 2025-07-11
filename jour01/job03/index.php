@@ -1,9 +1,9 @@
-     <?php
+<?php
         $mybool = true ;
         $int = 33 ;
         $text ="yonna";
         $float = 1.52;
-     ?>
+?>
 
 
 <!DOCTYPE html>
@@ -16,11 +16,11 @@
 <body>
 
 
-   <table border ="1">
+   <table border ="2">
        <tr>
           <th>Type</th>
           <th>Nom</th>
-          <th>Valeur</th>
+          <th>Valeurs</th>
        </tr>
    
        <tr>
@@ -61,7 +61,7 @@
             </td>
             
             <td>
-                <?php echo $text ;?>
+                <?php echo $text;?>
             </td>
        </tr>
 
@@ -75,7 +75,7 @@
             </td>
             
             <td>
-                <?php echo $float ;?>
+                <?php echo $float;?>
             </td>
        </tr>
 
@@ -83,19 +83,5 @@
 
 
    </table>
-   
-
-
-   
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
