@@ -1,33 +1,27 @@
 <?php
-       $hauteur = 5;
+      
+/*$hauteur = 5;
 
-for ($i = 0; $i < $hauteur; $i++) {
+for ($i = 1; $i <= $hauteur; $i++) {
 
     for ($j = 1; $j <= $hauteur - $i; $j++) {
-    echo "&nbsp;";
+        echo "0";
     }
-    echo "/";
-
     
-for ($m = 0; $m < $i * 3 ; $m++){
-
-    echo "&nbsp;";
+    echo "/";
+    
+    for ($m = 1; $m <= $i * 2-1 ; $m++){
+        echo "0";
     }
+    
+    echo "\\<br>";
+    
+    if($i == $hauteur){ 
+   
 
-    echo "\\";
-
-    echo "<br>";
-} 
-
-    for ($i = 0; $i < 2 * $hauteur; $i++){
-
-        echo "_";
     }
+} */
+$hauteur=5; 
+
+
 ?>
-
-
-
-
-
-
-

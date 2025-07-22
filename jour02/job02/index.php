@@ -4,7 +4,7 @@ for ($chiffre = 0; $chiffre <= 1338; $chiffre++) {
 
     switch($chiffre){
         case 26:
-            break;
+        break;
 
         case 37:
         break;
