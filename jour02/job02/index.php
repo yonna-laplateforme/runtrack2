@@ -1,11 +1,25 @@
 
 <?php
-$none = [26, 37 ,88, 1111];
-
 for ($chiffre = 0; $chiffre <= 1338; $chiffre++) {
 
-    if (!in_array($chiffre, $none)) 
-        echo "$chiffre <br />";
+    switch($chiffre){
+        case 26:
+            break;
+
+        case 37:
+        break;
+
+        case 88:
+        break;
+        
+        case 1111:
+        break;
+
+        default:
+        echo $chiffre . "<br>";
+        break;
+    }
+
 }
 //les nombres stop bien avant 3000 donc pas vu d'interet a bloqué 3233
 ?>
