@@ -1,27 +1,28 @@
 <?php
-      
-/*$hauteur = 5;
+//je définis une hauteur de 5  
+$hauteur = 5;
+
 
 for ($i = 1; $i <= $hauteur; $i++) {
 
-    for ($j = 1; $j <= $hauteur - $i; $j++) {
-        echo "0";
+    for ($j = 0; $j < $hauteur - $i; $j++) {
+        echo '0';
     }
+        echo "/";
     
-    echo "/";
+    for ($m = 1; $m <= $i * 2-2 ; $m++){
+        
+        if($i == 5){
+
     
-    for ($m = 1; $m <= $i * 2-1 ; $m++){
-        echo "0";
+         echo "_";   
+        }
+        
+         else{
+            echo "0";
+        }
     }
-    
-    echo "\\<br>";
-    
-    if($i == $hauteur){ 
-   
+        echo "\\<br>";
 
-    }
-} */
-$hauteur=5; 
-
-
+}
 ?>
