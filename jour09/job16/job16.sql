@@ -1,0 +1,1 @@
+SELECT etage.nom AS etage, salle.nom AS "Biggest Room", salle.capacite FROM salle JOIN etage ON salle.id_etage = etage.id ORDER BY salle.capacite DESC LIMIT 1;

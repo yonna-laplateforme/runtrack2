@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+    
+}
+
+#style{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-color: blueviolet;
+}
