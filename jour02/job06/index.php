@@ -3,8 +3,8 @@
 <?php
 
 //je definis des variables hauteur et (longueur)
-$hauteur = 10;
-$largeur = 20;
+$hauteur = 60;
+$largeur = 40;
 
 //je parcours ma hauteur de 1 à 10
 for ($j = 1; $j <= $hauteur; $j++) {
