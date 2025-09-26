@@ -15,16 +15,16 @@ données présentes dans votre base de données. -->
 </head>
 
 <body>
-    <table border =1 >
+    <table border=1>
         <thead>
-             <tr>
+            <tr>
                 <th> nom</th>
                 <th> capacité</th>
-                
+
             </tr>
-             </thead>
+        </thead>
         <tbody>
-           
+
             <?php
             //connexion a la base de donné
             $serveur = "localhost";
@@ -48,13 +48,13 @@ données présentes dans votre base de données. -->
                 echo "<tr>";
                 echo "<td>" . $ligne['nom'] . "</td>";
                 echo "<td>" . $ligne['capacite'] . "</td>";
-            
+
 
                 echo "</tr>";
             }
             ?>
 
-           
+
         <tbody>
     </table>
 </body>
