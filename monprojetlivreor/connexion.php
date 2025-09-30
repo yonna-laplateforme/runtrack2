@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ob_start();
 ?>
 
-<!-- HTML -->
+
 <body>
     <div class="mainform">
         <div class="card">
